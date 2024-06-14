@@ -1,0 +1,77 @@
+<!doctype html>    
+<meta charset="UTF-8" />
+<html lang="es">
+<link rel="stylesheet" href="CSS/venta.css" />  
+<head>
+  <script src="javascript/venta.js"></script>
+</head>
+<body>
+  <div id="header">
+    <header>
+      <img class="logo" src="img/Logotipo principal.png">
+      <h2 class="menu">
+        <a class="link" href="index.html">Inicio</a>&emsp;&emsp;&emsp;
+        <a class="link" href="compra.html">Comprar</a>&emsp;&emsp;&emsp;
+        <a class="link" href="venta.html">Vender</a>&emsp;&emsp;&emsp;
+        <a class="link" href="alquiler.html">Alquilar</a>
+      </h2>
+    </header>
+  </div>
+   
+    <div id="V-1">
+    <section>
+      <div class="Marco">
+      <form method="post" >
+        <h1 class="Venda">Venda su propiedad</h1>
+      <h6 class="Complete">Complete el formulario y un miembro del personal de Propiedades Aurora se pondrá en contacto con usted.</h6>
+      
+      <input placeholder="Nombre y apellido">
+      </br></br></br>
+      <input placeholder="Email">
+    </br></br></br>
+      <input placeholder="Telefono">
+    </br></br></br>
+      <input placeholder="Localidad/Provincia">
+    </br></br></br>
+    <label>Tipo de propiedad</label></br>
+      <select>
+        <option>Departamento</option>
+        <option>Casa</option>
+        <option>Terreno</option>
+      </select>
+    </br></br></br>
+      <input placeholder="Comentario">
+    </br></br></br>
+    <button class="boton" type="submit">Enviar</button>
+        </form>
+        <img class="imgVenta" src="https://img.freepik.com/foto-gratis/vista-3d-modelo-casa_23-2150761168.jpg">
+      </div>
+    </section>
+    </div>
+    <div id="footer">
+      <footer>
+      </br>
+      <a class="linkfooter" href="ENconstruccion.html"><h4> Información al consumidor</a> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <a href="https://www.facebook.com/?locale=es_LA"><img width="30px" height="30px" src="https://freelogopng.com/images/all_img/1658030243facebook-logo-white.png"></a>
+        &emsp;
+        <a href="https://www.instagram.com/"><img height="30px" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"></a>
+        &emsp;
+        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"><img width="30px" height="30px" src="https://img.freepik.com/vector-gratis/nuevo-diseno-icono-x-logotipo-twitter-2023_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.1687694167.1713484800&semt=ais"></a>
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+         <a class="linkfooter" href="ENconstruccion.html">Términos y condiciones</a>
+         &emsp;&emsp;
+         <a class="linkfooter" href="ENconstruccion.html"> Política de privacidad</a>
+         &emsp;&emsp;
+         <a class="linkfooter" href="contacto.html">Contacto</a>
+       </h4></br>
+      </footer>
+    </div>
+    <script>
+      var botonEnviar = document.querySelector(".boton");
+  
+      botonEnviar.addEventListener("focus", function() {
+          console.log("El botón de enviar ha recibido el foco.");
+      });
+    </script>
+</body>
+</html>

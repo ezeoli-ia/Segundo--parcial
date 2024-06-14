@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    color: black;
+}
+#header{
+    padding-left: 20px;
+    margin-bottom:0px;
+    padding: 20px;
+    border: solid;
+}
+.menu{
+    text-align: center;
+    padding-top: 20px;
+    margin:auto;
+}
+.logo{
+    height: 60px;
+    width: 60px ;
+    float: left;
+    padding-left: 60px;
+    padding-top: 0px;
+}
+#footer{
+    color: white;
+    background-color:#504747;
+}
+.link {
+    color: black;
+    text-decoration: none;
+}
+#A-1{
+    display: flex;
+    margin-left: 60px;
+    margin-right:90px ;
+    border: outset;
+    margin-top: 60px;
+}
+#A-2{
+    display: flex;
+    margin-left: 60px;
+    margin-right:90px ;
+    border: outset;
+}
+#A-3{
+    display: flex;
+    margin-left: 60px;
+    margin-right:90px ;
+    border: outset;
+}
+#A-4{
+    display: flex;
+    margin-left: 60px;
+    margin-right:90px ;
+    border: outset;
+}
+#A-5{
+    display: flex;
+    margin-left: 60px;
+    margin-right:90px ;
+    border: outset;
+    margin-bottom: 40px;
+}
+.imgA-1{
+    height: auto;
+    width: 700px;
+}
+.titulo{
+    font-size: 38px;
+}
+.textA-1{
+    font-size: 19px;
+    padding-left: 30px;
+    text-align: center;
+}
+.imgPeq{
+    height: 32px;
+    width: 32px;
+    float: left;
+}
+.linkfooter{
+    color: white;
+    text-decoration: none;
+}
